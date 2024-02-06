@@ -1,6 +1,8 @@
 {
   "name": "zero-template-vue-malagu",
   "description": "",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "clean": "rimraf lib dist .malagu",
     "build": "malagu build",
@@ -25,11 +27,6 @@
   },
   "keywords": [
     "malagu-component"
-  ],
-  "version": "0.0.0",
-  "files": [
-    "lib",
-    "src"
   ],
   "dependencies": {
     "@malagu/cli-service": "^2.55.0",
