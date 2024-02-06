@@ -17,11 +17,11 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue,scss,less,html,md}": [
+    "*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue,scss,less,html}": [
       "eslint --fix",
       "prettier --write ./"
     ],
-    "*.json": [
+    "*.{json,md}": [
       "prettier --write ./"
     ]
   },

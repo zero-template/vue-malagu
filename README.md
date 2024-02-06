@@ -1,13 +1,28 @@
 # 开发说明
 
+## 技术
+
+- [Malagu](https://malagu.cellbang.com/)
+- [TypeScript & TSX](https://www.typescriptlang.org/)
+- [Vue](https://vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [UNOCSS](https://unocss.dev/)
+- [Vue Facing Decorator](https://github.com/facing-dev/vue-facing-decorator)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://typicode.github.io/husky)
+- [Commitlint](https://commitlint.js.org/)
+- [Lint Staged](https://github.com/lint-staged/lint-staged)
+
 ## 安装依赖
 
-以下使用 yarn 工具来说明，你也可以使用 npm。
+以下使用 bun 工具来说明，你也可以使用 yarn 或者 npm 来安装依赖。
 
 ```bash
 # 通过 malagu init 初始化应用的时候已经自动安装了依赖，所以你只需要安装你额外需要的依赖即可
 
-$ yarn add xxxx
+$ bun i xxxx
 ```
 
 ## 本地运行
@@ -16,7 +31,7 @@ $ yarn add xxxx
 # 启动本地服务，端口默认 3000
 # 在终端中会输出本地服务的 URL 链接
 
-$ yarn start  # 或者执行 malagu serve 命令
+$ bun start  # 或者执行 malagu serve 命令
 ```
 
 ## 构建部署
@@ -60,7 +75,7 @@ Malagu 名字由来：在我的家乡，谐音“吗啦咕”是小石头的意�
 
 ```bash
 # 安装命令行工具
-npm install -g @malagu/cli
+bun install -g @malagu/cli
 
 # 初始化
 malagu init -o project-name
