@@ -10,7 +10,9 @@
     "deploy": "malagu deploy -m scf -m test",
     "deploy:test": "malagu deploy -m scf -m test",
     "deploy:pre": "malagu deploy -m scf -m pre",
-    "deploy:prod": "malagu deploy -m scf -m prod"
+    "deploy:prod": "malagu deploy -m scf -m prod",
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,json,vue,scss,less,html,md}": [
@@ -52,11 +54,7 @@
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.21.1",
     "husky": "^9.0.10",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

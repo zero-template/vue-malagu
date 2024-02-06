@@ -9,7 +9,7 @@ import Logo from "./images/logo.png";
         <hr />
         <h1>Malagu Rpc + Vue 3 + Vue Router + Pinia + Vue Decorator + TSX</h1>
         <h2>UNOCSS + Less</h2>
-        <h3>ESLint + Prettier + CommitLint + Husky + Link Staged</h3>
+        <h3>ESLint + Prettier + CommitLint + Husky + Lint Staged</h3>
         <hr />
         <p>
           Powered by <a href="https://github.com/Groupguanfang">Zero</a>
