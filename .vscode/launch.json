@@ -12,7 +12,7 @@
       },
       "internalConsoleOptions": "openOnSessionStart",
       "outputCapture": "std",
-      "type": "pwa-node"
+      "type": "node"
     }
   ]
 }
