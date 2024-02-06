@@ -12,7 +12,7 @@ export default async (ctx: WebpackContext) => {
   webpackConfig.plugin("unocss").use(
     UNOCSS({
       presets: [presetUno()],
-    })
+    }),
   );
   webpackConfig.optimization.set("realContentHash", true);
 };

@@ -38,21 +38,21 @@ Malagu 是基于 TypeScript 的 Serverless First、组件化、平台无关的�
 
 ## 特征
 
--   约定大于配置，零配置，开箱即用
--   TypeScript 版 Spring Boot
--   Serverless First
--   平台不锁定
--   支持前后端一体化，前端框架不锁定
--   支持微服务
--   组件化，渐进式
--   命令行工具插件化
--   依赖注入
--   面向切面编程（AOP）
--   集成了流行的 ORM 框架，使用装饰器声明式事务管理
--   支持 OIDC 认证
--   支持 OAuth2 授权
--   使用 rxjs 管理状态
--   提供 REST 和 RPC 两种接口风格
+- 约定大于配置，零配置，开箱即用
+- TypeScript 版 Spring Boot
+- Serverless First
+- 平台不锁定
+- 支持前后端一体化，前端框架不锁定
+- 支持微服务
+- 组件化，渐进式
+- 命令行工具插件化
+- 依赖注入
+- 面向切面编程（AOP）
+- 集成了流行的 ORM 框架，使用装饰器声明式事务管理
+- 支持 OIDC 认证
+- 支持 OAuth2 授权
+- 使用 rxjs 管理状态
+- 提供 REST 和 RPC 两种接口风格
 
 Malagu 名字由来：在我的家乡，谐音“吗啦咕”是小石头的意思，小石头堆砌起来可以建成高楼大厦、道路桥梁，而 Malagu 组件编排可以实现千变万化的应用。
 
@@ -77,16 +77,16 @@ malagu deploy
 
 ### 文档
 
--   [介绍](https://malagu.cellbang.com/guide/%E4%BB%8B%E7%BB%8D)
--   [创建第一个应用](https://malagu.cellbang.com/guide/%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BA%94%E7%94%A8)
--   [命令行工具](https://malagu.cellbang.com/guide/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7)
--   [控制器](https://malagu.cellbang.com/guide/%E6%8E%A7%E5%88%B6%E5%99%A8)
--   [数据库操作](https://malagu.cellbang.com/guide/%E6%95%B0%E6%8D%AE%E5%BA%93typeorm)
--   [微服务](https://malagu.cellbang.com/dev/%E5%BE%AE%E6%9C%8D%E5%8A%A1)
--   [认证与授权](https://malagu.cellbang.com/guide/%E8%AE%A4%E8%AF%81%E4%B8%8E%E6%8E%88%E6%9D%83)
--   [云平台适配](https://malagu.cellbang.com/cloud/%E4%BA%91%E5%B9%B3%E5%8F%B0%E9%80%82%E9%85%8D)
--   [依赖注入](https://malagu.cellbang.com/guide/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5)
--   [组件设计](https://malagu.cellbang.com/guide/%E7%BB%84%E4%BB%B6%E8%AE%BE%E8%AE%A1)
--   [前端架构](https://malagu.cellbang.com/guide/%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84)
--   [React 开发](https://malagu.cellbang.com/dev/react)
--   [前后端一体化开发](https://malagu.cellbang.com/dev/%E5%89%8D%E5%90%8E%E7%AB%AF%E4%B8%80%E4%BD%93%E5%8C%96%E5%BC%80%E5%8F%91)
+- [介绍](https://malagu.cellbang.com/guide/%E4%BB%8B%E7%BB%8D)
+- [创建第一个应用](https://malagu.cellbang.com/guide/%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BA%94%E7%94%A8)
+- [命令行工具](https://malagu.cellbang.com/guide/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7)
+- [控制器](https://malagu.cellbang.com/guide/%E6%8E%A7%E5%88%B6%E5%99%A8)
+- [数据库操作](https://malagu.cellbang.com/guide/%E6%95%B0%E6%8D%AE%E5%BA%93typeorm)
+- [微服务](https://malagu.cellbang.com/dev/%E5%BE%AE%E6%9C%8D%E5%8A%A1)
+- [认证与授权](https://malagu.cellbang.com/guide/%E8%AE%A4%E8%AF%81%E4%B8%8E%E6%8E%88%E6%9D%83)
+- [云平台适配](https://malagu.cellbang.com/cloud/%E4%BA%91%E5%B9%B3%E5%8F%B0%E9%80%82%E9%85%8D)
+- [依赖注入](https://malagu.cellbang.com/guide/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5)
+- [组件设计](https://malagu.cellbang.com/guide/%E7%BB%84%E4%BB%B6%E8%AE%BE%E8%AE%A1)
+- [前端架构](https://malagu.cellbang.com/guide/%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84)
+- [React 开发](https://malagu.cellbang.com/dev/react)
+- [前后端一体化开发](https://malagu.cellbang.com/dev/%E5%89%8D%E5%90%8E%E7%AB%AF%E4%B8%80%E4%BD%93%E5%8C%96%E5%BC%80%E5%8F%91)

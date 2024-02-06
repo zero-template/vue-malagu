@@ -4,7 +4,9 @@ import { Component, TSX, Vue } from "vue-facing-decorator";
   render() {
     return (
       <div class="h-screen w-screen flex flex-col justify-center items-center text-center">
-        <h1>Malagu Rpc + Vue 3 + Vue Router + Pinia + Vue Decorator + TSX + UNOCSS + Less</h1>
+        <h1>Malagu Rpc + Vue 3 + Vue Router + Pinia + Vue Decorator + TSX</h1>
+        <h2>UNOCSS + Less</h2>
+        <h3>ESLint + Prettier + </h3>
         <hr />
         <p>
           Powered by <a href="">Zero</a>
@@ -14,4 +16,8 @@ import { Component, TSX, Vue } from "vue-facing-decorator";
     );
   },
 })
-export default class RootView extends TSX()(Vue) {}
+export default class RootView extends TSX()(Vue) {
+  mounted() {
+    console.log("RootView mounted");
+  }
+}
