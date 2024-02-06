@@ -1,0 +1,40 @@
+{
+  "name": "bili_watch",
+  "keywords": [
+    "malagu-component"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@malagu/cli-service": "^2.55.0",
+    "@malagu/core": "2.49.10",
+    "@malagu/rpc": "2.49.10",
+    "@malagu/serve-static": "2.49.10",
+    "@malagu/vue": "2.49.10",
+    "@unocss/preset-uno": "^0.58.5",
+    "@unocss/webpack": "^0.58.5",
+    "@vue/tsconfig": "^0.5.1",
+    "less": "^4.2.0",
+    "pinia": "^2.1.7",
+    "unocss": "^0.58.5",
+    "vue": "^3.3.4",
+    "vue-facing-decorator": "^3.0.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@malagu/cli": "2.49.10"
+  },
+  "scripts": {
+    "clean": "rimraf lib dist .malagu",
+    "build": "malagu build",
+    "start": "malagu serve",
+    "deploy": "malagu deploy -m scf -m test",
+    "deploy:test": "malagu deploy -m scf -m test",
+    "deploy:pre": "malagu deploy -m scf -m pre",
+    "deploy:prod": "malagu deploy -m scf -m prod"
+  }
+}
